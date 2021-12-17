@@ -1,0 +1,47 @@
+.song-info {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 15%;
+        border-radius: 10%;
+        transition: all 2s ease;
+        box-shadow: 4px 2px 12px rgba(0, 0, 0, 0.6);
+    }
+
+    h2 {
+        padding: 2.5rem 1rem 1rem 1rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+}
+
+/* Image Rotate 360 */
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotateSong {
+    animation: rotate 5s linear forwards infinite;
+}
+
+/*======================================= MEDIA QUERY =======================================*/
+
+@media screen and (max-width: 768px) {
+    .song-info {
+        img {
+            width: 55%;
+        }
+    }
+}

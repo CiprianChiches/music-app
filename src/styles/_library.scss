@@ -1,0 +1,84 @@
+.library {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25rem;
+    height: 100%;
+    background: #fff;
+    box-shadow: 2px 2px 50px rgb(204, 204, 204);
+    overflow: scroll;
+    transform: translateX(-100%);
+    transition: all 0.5s ease;
+    opacity: 0;
+
+    h2 {
+        padding: 2rem;
+    }
+}
+
+.library-song {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 2.5rem;
+    cursor: pointer;
+
+    img {
+        width: 30%;
+    }
+
+    &:hover {
+        background: rgb(200, 228, 255);
+    }
+}
+
+.song-details {
+    padding-left: 1rem;
+
+    h3 {
+        font-size: 1.3rem;
+        color:black;
+    }
+
+    h4 {
+        font-size: 0.9rem;
+        color:black;
+    }
+}
+
+// Firefox
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(200, 228, 255, 0.5) transparent;
+}
+
+// For Chrome, Edge, Opera etc.
+*::-webkit-scrollbar {
+    width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(200, 228, 255, 0.5);
+    border-radius: 20px;
+    border: transparent;
+}
+
+.selected {
+    background: rgb(200, 228, 255);
+}
+
+.active-library {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+/*======================================= MEDIA QUERY =======================================*/
+
+@media screen and (max-width: 768px) {
+    .library {
+        width: 100%;
+    }
+}

@@ -1,0 +1,53 @@
+/* Reset Default Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: rgb(55, 55, 55);
+}
+
+h3 {
+    // color: rgb(55, 55, 55);
+    color:white;
+}
+
+h2{
+        // color: rgb(55, 55, 55);
+color:white;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    // background-image: linear-gradient(to right, #0fbcf9 25%, #0059ff 100%);
+     background-image: url("../img/mmmmmmm-nnnnnnnn-bbbbb-mmmmmmmmmmm-nnnnnnnnnnnn-bbbbbbbbbbb.jpg") ;
+    // background-image: url("../img/photo-1459233313842-cd392ee2c388.jfif");
+     background-repeat: no-repeat;
+     background-size: auto;
+     
+    
+    
+}
+
+.App {
+    transition: all 0.6s ease;
+}
+
+.library-active {
+    margin-left: 35%;
+}
+
+h3,
+h4 {
+    font-weight: 400;
+    // color: rgb(100, 100, 100);
+    color:white;
+}
+
+@import "./player";
+@import "./song";
+@import "./library";
+@import "./nav";
