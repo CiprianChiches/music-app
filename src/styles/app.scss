@@ -6,31 +6,36 @@
     box-sizing: border-box;
 }
 
-h1{
+h1 {
     color: rgb(55, 55, 55);
 }
 
 h3 {
     // color: rgb(55, 55, 55);
-    color:white;
+    color: white;
 }
 
-h2{
-        // color: rgb(55, 55, 55);
-color:white;
+h2 {
+    // color: rgb(55, 55, 55);
+    color: white;
 }
 
 body {
     font-family: "Lato", sans-serif;
-    // background-image: linear-gradient(to right, #0fbcf9 25%, #0059ff 100%);
-     background-image: url("../img/mmmmmmm-nnnnnnnn-bbbbb-mmmmmmmmmmm-nnnnnnnnnnnn-bbbbbbbbbbb.jpg") ;
+     background-image: linear-gradient(to right, #0fbcf9 25%, #0059ff 100%);
+    // background-image: url("../img/photo-1571330735066-03aaa9429d89.jfif");
     // background-image: url("../img/photo-1459233313842-cd392ee2c388.jfif");
-     background-repeat: no-repeat;
-     background-size: auto;
-     
-    
-    
+//      background-repeat: no-repeat;
+//      background-size: auto;
+//     background-position: top;
+// background-position: bottom;
+// background-position: left;
+// background-position: right;
+// background-position: center;
 }
+
+
+
 
 .App {
     transition: all 0.6s ease;
@@ -44,7 +49,7 @@ h3,
 h4 {
     font-weight: 400;
     // color: rgb(100, 100, 100);
-    color:white;
+    color: white;
 }
 
 @import "./player";

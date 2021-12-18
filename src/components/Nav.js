@@ -11,7 +11,7 @@ function Nav({ libraryStatus, setLibraryStatus }) {
 
     return (
         <nav>
-            <h1>Cipi's Music Player</h1>
+            <h1></h1>
             <button
                 onClick={libStatus}
                 className={libraryStatus ? "library-active" : ""}
